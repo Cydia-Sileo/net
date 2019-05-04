@@ -434,6 +434,46 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preference
 Dev: dustinhowett
 Name: PreferenceLoader
 
+Package: uasharedtools
+Version: 2.2r-71
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.repo.xarold.com.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Filename: ./debs/uasharedtools_2.2r-71_iphoneos-arm.deb
+Size: 16298866
+MD5sum: c59607ce779bc4ae4fdd9f068c62e583
+SHA1: 92ff0d4ed3512c67ddeb7fb164e9890c39554689
+SHA256: 9243efc320960fcf4212b5ea51ecfefbe78b980b07de4a5f56646169baa2cb13
+Section: Development
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=uasharedtools
+Description: unlimapps主依赖请用cracktool3破解一下
+Author: UnlimApps Inc.
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=uasharedtools
+Name: uasharedtools「iOS11」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/uasharedtools.json
+
+Package: ws.hbang.common
+Version: 1.12
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Installed-Size: 830
+Depends: preferenceloader, mobilesubstrate, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.12_iphoneos-arm.deb
+Size: 137734
+MD5sum: 1d9cdbcff408a3fce5588bec483bce01
+SHA1: 62f1d5155d86bec95c2e8d846e67aa3d8fd74cfa
+SHA256: 116f8ba42703718ab195705dadeef1c9dcee6ce47f2afb46d57f7ade114f66f7
+Section: Development
+Priority: optional
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Tag: purpose::extension, cydia::obsolete, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Name: Cephei
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
+Sponsor: 他是个疯子
+
 Package: ws.hbang.common
 Version: 1.13.1-2
 Architecture: iphoneos-arm
