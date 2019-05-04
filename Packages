@@ -1,3 +1,70 @@
+Package: com.a3tweaks.flipswitch
+Version: 1.0.16~beta3
+Architecture: iphoneos-arm
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Installed-Size: 2156
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.7~beta1) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16~beta3_iphoneos-arm.deb
+Size: 281194
+MD5sum: 8a98f37fb057f1c071c1e68f5b2cc771
+SHA1: b01583028280dea86316662a2386f3f565fc4017
+SHA256: c7b57fe0ff7b12e7d30ff29089569a8cb9a18ea4feb46e627e79eacb699a00bf
+Section: System
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=com.a3tweaks.flipswitch
+Description: iOS的集中切换系统
+Tag: purpose::extension, role::developer
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=com.a3tweaks.flipswitch
+Dev: flipswitch
+Icon: file:///Applications/Preferences.app/icon-table.png
+Name: Flipswitch「依赖文件」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/com.a3tweaks.flipswitch.json
+
+Package: com.chpwn.iconsupport
+Version: 1.11.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 244
+Pre-Depends: firmware (>= 3.0)
+Depends: mobilesubstrate, firmware (>= 6.0) | jp.ashikase.bugfix.stuckpages, firmware (>= 6.0) | jp.ashikase.bugfix.duplicateicons
+Filename: ./debs/com.chpwn.iconsupport_1.11.1_iphoneos-arm.deb
+Size: 28706
+MD5sum: aba48774c54d8272d78eb06b522d57e8
+SHA1: 71c4e1896403ebf647783c9732015ef9381e6726
+SHA256: f853c93ad6fcead89944cee35c8aba97c2286d622d749354ce660b3d31def50a
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconsupportData
+Description: Support library for safe icon tweaks.
+Tag: role::developer, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconsupportData
+Dev: ashikase
+Name: IconSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 3072
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/com.creaturecoding.libcspreferences_1.1.5_iphoneos-arm.deb
+Size: 473572
+MD5sum: ec9010659f80200f3d4cf8512b603c6a
+SHA1: ed1b63bdc1f2632ee4d23cb02b1f4a8f9b568758
+SHA256: 963e3930138a5a3d2747c888183161999dc7196a16d3e9ff9f88473e1aebd36c
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -17,4 +84,274 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 Name: libCSColorPicker
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
+Package: com.hackyouriphone.libcolorpickerarm64
+Version: 1.6.2-1
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 11.0)
+Conflicts: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker, com.hackyouriphone.libcolorpicker
+Replaces: org.thebigboss.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (=1.6.1)
+Filename: ./debs/com.hackyouriphone.libcolorpickerarm64_1.6.2-1_iphoneos-arm.deb
+Size: 37992
+MD5sum: 790655eb4e7fdcaca82ce73cda33b8df
+SHA1: 53493a7733510e2d2166e793d10f2cf8aaf3f58f
+SHA256: 509c2d022006acedb036c7582b30bf7da415701b183a1f4cf3e261e79f31b76e
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libcolorpickerarm64
+Description: libcolorpicker with arm64e (A12) support
+Author: Bailey Seymour <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libcolorpickerarm64
+Name: libcolorpicker Arm64e (A12)
+
+Package: com.laughingquoll.prefixui
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Installed-Size: 172
+Filename: ./debs/com.laughingquoll.prefixui_0.7_iphoneos-arm.deb
+Size: 27870
+MD5sum: 9fd1bcbe7141e03785db501bf302b3a0
+SHA1: e7fe184a15d242dd4b821cebac913be96d84b00a
+SHA256: b6c5cb5ac2ae7445e26767fb8c6ebea12809eb5372b1a9fe01d669fb94180c13
+Section: System
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Description: noctisxi依赖
+Tag: role::developer
+Author: LaughingQuoll
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Name: PrefixUI「noctisxi依赖」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
+
+Package: com.laughingquoll.prefixui
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 172
+Depends: org.thebigboss.libcolorpicker
+Filename: ./debs/com.laughingquoll.prefixui_1.2_iphoneos-arm.deb
+Size: 23154
+MD5sum: 6d5a74c5f8085804e03b3d4391877533
+SHA1: 1a6136ac68549dc094372372f725b9b184aa9d95
+SHA256: 4976220685020a90fe119756e38b53c757fec8bdb59bddd348896912b4352a5c
+Section: System
+Description: An awesome framework of some sort!!
+Tag: role::developer
+Author: LaughingQuoll
+Name: PrefixUI
+
+Package: com.opa334.ccsupport
+Version: 1.2-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 203
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2-3_iphoneos-arm.deb
+Size: 35506
+MD5sum: 5bdf900d2f1e3f7b8dca06696892ef8a
+SHA1: 869427d61a45e0f6bf9803628aa0555e630d0fa8
+SHA256: fd79a3b14797b0ed8b3e3eebbcb71f51e446a374307990f2ed58b3fb5982e04a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.spark.libsparkapplist
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 596
+Filename: ./debs/com.spark.libsparkapplist_1.0.3_iphoneos-arm.deb
+Size: 31948
+MD5sum: e53d3c6cbf3fd6d1f744083fc61ba5b7
+SHA1: 296377c94ffc68729cdf36eae668210dbf3f3c36
+SHA256: 6d3b825c2e6b91098bb354cf4bdf179049248656a777eff6ec232fd9d4bf5ea6
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
+Package: com.subdiox.sud0
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: subdiox
+Installed-Size: 260
+Filename: ./debs/com.subdiox.sud0_1.0.1_iphoneos-arm.deb
+Size: 4642
+MD5sum: d659ac23395804e3d14203ea74f3e6f0
+SHA1: a9642fee45ee5e56d37768f14b1666cd99bb2584
+SHA256: 79f1c5879721616dd251d01d255a0db208f68a112de1b6ff22971334fb054691
+Section: System
+Description: sudo command, electra jailbreak supported
+Tag: role::hacker
+Author: subdiox
+Name: sud0
+
+Package: jp.ashikase.libpackageinfo
+Version: 1.1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 720
+Pre-Depends: firmware (>=3.0)
+Filename: ./debs/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
+Size: 243602
+MD5sum: f5bbe130452da2165bbe66da5229cba3
+SHA1: 45231452be4ad000625177617a76d62c7de0cc71
+SHA256: 4ad8e1e5995e13d94ed110d9af48dbeb7be51f674173678fabac07f7df4fb548
+Section: Development
+Homepage: http://github.com/ashikase/libpackageinfo
+Description: Library to retrieve package information.
+Tag: role::developer
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
+Dev: ashikase
+Name: libpackageinfo
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: jp.ashikase.techsupport
+Version: 1.5.0.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 456
+Pre-Depends: firmware (>=3.0)
+Depends: jp.ashikase.libpackageinfo
+Filename: ./debs/jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
+Size: 114992
+MD5sum: 70794fdd2f450d3f1f42f91edb399ea8
+SHA1: a9d60d81d5ea3d9132cdcb20e50cb8620dd32ffb
+SHA256: f24f4c319d717e9a611a2c58eb79d0ff1a760c54eff286cc5abbf67bb51d6634
+Section: Development
+Homepage: http://github.com/ashikase/TechSupport
+Description: Framework to assist in providing feedback to developers.
+Tag: role::developer
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
+Dev: ashikase
+Name: TechSupport Framework
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: libcolorpickerarm64
+Version: 1.6.2-1
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Depends: firmware (>= 11.0)
+Conflicts: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker, com.hackyouriphone.libcolorpicker
+Replaces: org.thebigboss.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (=1.6.1)
+Filename: ./debs/libcolorpickerarm64_1.6.2-1_iphoneos-arm.deb
+Size: 38504
+MD5sum: d761357fc8a3d5f9116adf3d23b4d504
+SHA1: d0f84a6524d7f271073f79bcbaa6cc5e89b128b7
+SHA256: a7b6cfb6d19617b2813bae27146920c35763be45a49ca9210aabb721b1782c18
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Description: libcolorpicker 适配 arm64e (A12) support
+Author: Bailey Seymour
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Name: libcolorpicker Arm64e「A12」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
+
+Package: limneosos
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Depends: mobilesubstrate
+Conflicts: ru.rejail.limneosos
+Filename: ./debs/limneosos_1.1.2_iphoneos-arm.deb
+Size: 23080
+MD5sum: 85f3714847c596cf38e06d15d0c8ed0c
+SHA1: 75d8b3e714408e044d01df8e2145d6dcfe0b426a
+SHA256: 58c77c479e782479d9df049ece91deb3b6b406ce3598e2d65925b4c3929a9dd4
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=limneosos
+Description: limneosos依赖文件
+Author: ReJail
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=limneosos
+Name: Limneosos
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/limneosos.json
+
+Package: me.alfhaily.adblockforyoutube
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Installed-Size: 241
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/me.alfhaily.adblockforyoutube_1.0.7_iphoneos-arm.deb
+Size: 31948
+MD5sum: f11ae5e5c26add5388f5e837fa71194b
+SHA1: 769089782451ae03aa19471b70b12d1849237d88
+SHA256: 6afe3dba2df298f74d07168c3dc7a193a4fa27a9ea128ae97384a2a1f278ec74
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=adblockforyoutube
+Description: 去youtube广告跟下载视频
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Majd Alfhaily <freemanrepo@me.com>
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=adblockforyoutube
+Dev: freemanrepo
+Name: AdBlock for YouTube
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/adblockforyoutube.json
+Sponsor: 他是个疯子
+
+Package: me.alfhaily.cercube.lib
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.alfhaily.cercube.lib_1.1.1_iphoneos-arm.deb
+Size: 1902660
+MD5sum: 8ff566c159be04d4863e46a41e6b1512
+SHA1: 6f0d6966314bcc89d7bd74fcad5406d1121608e9
+SHA256: 0cf3fcc29c25d62bb5fa463e630dadebc550b9dfa6ed66e14ec7858524578dba
+Section: Development
+Priority: optional
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=cercube.lib
+Description: cercube YOUTUBE依赖文件
+Author: Majd Alfhaily
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=cercube.lib
+Name: libCercube「依赖文件」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/cercube.lib.json
+
+Package: me.nepeta.libnepeta
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 148
+Filename: ./debs/me.nepeta.libnepeta_0.1.0_iphoneos-arm.deb
+Size: 14070
+MD5sum: d22ec68985bb3ae1d32bed057e38b679
+SHA1: 9b8a9c219b0196c3fb8108bc2b222d5603a3a8b2
+SHA256: 1d39fabd174cfe1de8a68bc6a2c24327e9ee123663be9ca821f8b14ebf62002e
+Section: Development
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Description: Nepeta's color utils
+Author: Nepeta
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Name: libnepeta
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
+
+Package: net.limneos.libbulletin
+Version: 0.1-147
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/net.limneos.libbulletin_0.1-147_iphoneos-arm.deb
+Size: 15612
+MD5sum: be98ea422a85ca8d3e5e6499f6f9ecb3
+SHA1: f6a47bab3c97f1367076fda2c4aa0d1e00a7db1b
+SHA256: e9fd3401e36f858536fcd1bd19b1dcb3f4fde7aa6c80c636311cf6fc861089f5
+Section: Tweaks
+Description: Simple library that displays bulletins
+Author: Elias Limneos
+Name: libbulletin
 
