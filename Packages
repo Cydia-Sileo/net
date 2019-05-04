@@ -281,6 +281,24 @@ Dev: ashikase
 Name: TechSupport Framework
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: libbulletin
+Version: 0.1-145
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Depends: mobilesubstrate
+Filename: ./debs/libbulletin_0.1-145_iphoneos-arm.deb
+Size: 24352
+MD5sum: 8a13b43d34c0a7648d46a5c53eb473a7
+SHA1: 37d61a1ee1b22e826de819568b760a840cb1d2de
+SHA256: 6ae4816f8528abf4dbaa1a3a7fdf5b9068dfbe29d3b2c5a29a513d4e486ecdb3
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Description: 显示公告的简单依赖库
+Author: Elias Limneos
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
+Name: libbulletin
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
+
 Package: libcolorpickerarm64
 Version: 1.6.2-1
 Architecture: iphoneos-arm
@@ -415,4 +433,25 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Dev: dustinhowett
 Name: PreferenceLoader
+
+Package: ws.hbang.common
+Version: 1.13.1-2
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2696
+Depends: mobilesubstrate, preferenceloader, firmware (<< 12.0) | preferenceloader (>> 2.2.3), jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.13.1-2_iphoneos-arm.deb
+Size: 174522
+MD5sum: 8b4447792ec4e8c7f56e95e95ca48739
+SHA1: c56f3788176d6d2ce561159f1f6450cecb4d3d6e
+SHA256: e8046c17a5f156f2b10b4f82b9d794c3a3a7ff25b0db8abf1c12002b4a9afbd6
+Section: Development
+Description: Support library for tweaks
+Tag: purpose::extension, compatible::ios5, compatible::ios6, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.io/package/ws.hbang.common/
+Dev: hbang
+Icon: file:///Library/PreferenceBundles/Cephei.bundle/icon@2x.png
+Name: Cephei
+Support: https://hashbang.productions/support/
 
