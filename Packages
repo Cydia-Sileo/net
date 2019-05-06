@@ -18,6 +18,22 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: ch.mdaus.utils
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 236
+Filename: ./debs/ch.mdaus.utils_0.0.2_iphoneos-arm.deb
+Size: 20000
+MD5sum: 48319883e16f1519c13535a0168ae703
+SHA1: d39369db249a97f1ce91bf1c8b19c8435699caa3
+SHA256: b6bfc7596808da34eb7389f838c3cf37473baf2f096911b692f1e13cd75ee8b6
+Section: System
+Description: A collection of common functions for my tweaks. More documentation will be coming soon.
+Tag: role::developer
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Name: MDausch Utils
+
 Package: com.a3tweaks.flipswitch
 Version: 1.0.16~beta3
 Architecture: iphoneos-arm
