@@ -152,6 +152,23 @@ Tag: role::developer
 Author: LaughingQuoll
 Name: PrefixUI
 
+Package: com.laughingquoll.prefixui
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 172
+Depends: me.nepeta.libcolorpicker
+Filename: ./debs/com.laughingquoll.prefixui_1.2.1_iphoneos-arm.deb
+Size: 23176
+MD5sum: 37078019a0bfc223dd5aaece3e721c0b
+SHA1: 51c41c258d8be0c42473739591c15f68f00077b7
+SHA256: d126cbcc1ccfa1100daadbc87dfe3e876e2abbb1363f866a8152bd9e62afe542
+Section: System
+Description: An awesome framework of some sort!!
+Tag: role::developer
+Author: LaughingQuoll
+Name: PrefixUI
+
 Package: com.opa334.ccsupport
 Version: 1.2-3
 Architecture: iphoneos-arm
@@ -329,6 +346,31 @@ Author: ReJail
 Depiction: https://sileo-cydia.github.io/ms/description.html?id=limneosos
 Name: Limneosos
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/limneosos.json
+
+Package: me.nepeta.libcolorpicker
+Version: 1.6.2-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 629
+Depends: firmware (>= 9.0)
+Conflicts: org.thebigboss.libcolorpicker
+Replaces: org.thebigboss.libcolorpicker
+Provides: org.thebigboss.libcolorpicker, org.thebigboss.libcolorpicker (= 1.6.1)
+Filename: ./debs/me.nepeta.libcolorpicker_1.6.2-3_iphoneos-arm.deb
+Size: 185604
+MD5sum: dc0a3819612673d099ac4c5bec8d9cc6
+SHA1: f5d5c358e67dcee2067aa5b4ff11b26033b84f67
+SHA256: 7ff2758f066913d23841383f9ca5fbd61a992df3e54742dd042cf7fc0af5fd62
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickernepetaDp
+Description: libcolorpicker with arm64e (A12) support
+Tag: purpose::library, role::developer, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, cydia::obsolete
+Author: Nepeta <Ominousness@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickernepetaDp
+Dev: pixelfiredev
+Name: libcolorpicker-nepeta
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.nepeta.libnepeta
 Version: 0.1.0
