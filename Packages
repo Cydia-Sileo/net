@@ -34,31 +34,6 @@ Tag: role::developer
 Author: Maxwell Dausch <max.dausch@gmail.com>
 Name: MDausch Utils
 
-Package: com.a3tweaks.flipswitch
-Version: 1.0.16~beta3
-Architecture: iphoneos-arm
-Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
-Installed-Size: 2156
-Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.7~beta1) | firmware (<< 7.0)
-Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch
-Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
-Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
-Filename: ./debs/com.a3tweaks.flipswitch_1.0.16~beta3_iphoneos-arm.deb
-Size: 281194
-MD5sum: 8a98f37fb057f1c071c1e68f5b2cc771
-SHA1: b01583028280dea86316662a2386f3f565fc4017
-SHA256: c7b57fe0ff7b12e7d30ff29089569a8cb9a18ea4feb46e627e79eacb699a00bf
-Section: System
-Homepage: https://sileo-cydia.github.io/ms/description.html?id=com.a3tweaks.flipswitch
-Description: iOS的集中切换系统
-Tag: purpose::extension, role::developer
-Author: rpetrich <rpetrich+flipswitch@gmail.com>
-Depiction: https://sileo-cydia.github.io/ms/description.html?id=com.a3tweaks.flipswitch
-Dev: flipswitch
-Icon: file:///Applications/Preferences.app/icon-table.png
-Name: Flipswitch「依赖文件」
-Sileodepiction: https://sileo-cydia.github.io/ms/msxq/com.a3tweaks.flipswitch.json
-
 Package: com.chpwn.iconsupport
 Version: 1.11.1
 Architecture: iphoneos-arm
@@ -354,47 +329,6 @@ Author: ReJail
 Depiction: https://sileo-cydia.github.io/ms/description.html?id=limneosos
 Name: Limneosos
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/limneosos.json
-
-Package: me.alfhaily.adblockforyoutube
-Version: 1.0.7
-Architecture: iphoneos-arm
-Maintainer: 他是个疯子
-Installed-Size: 241
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/me.alfhaily.adblockforyoutube_1.0.7_iphoneos-arm.deb
-Size: 31948
-MD5sum: f11ae5e5c26add5388f5e837fa71194b
-SHA1: 769089782451ae03aa19471b70b12d1849237d88
-SHA256: 6afe3dba2df298f74d07168c3dc7a193a4fa27a9ea128ae97384a2a1f278ec74
-Section: Tweaks
-Homepage: https://sileo-cydia.github.io/ms/description.html?id=adblockforyoutube
-Description: 去youtube广告跟下载视频
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
-Author: Majd Alfhaily <freemanrepo@me.com>
-Depiction: https://sileo-cydia.github.io/ms/description.html?id=adblockforyoutube
-Dev: freemanrepo
-Name: AdBlock for YouTube
-Sileodepiction: https://sileo-cydia.github.io/ms/msxq/adblockforyoutube.json
-Sponsor: 他是个疯子
-
-Package: me.alfhaily.cercube.lib
-Version: 1.1.1
-Architecture: iphoneos-arm
-Maintainer: Majd Alfhaily <freemanrepo@me.com>
-Depends: firmware (>= 8.0)
-Filename: ./debs/me.alfhaily.cercube.lib_1.1.1_iphoneos-arm.deb
-Size: 1902660
-MD5sum: 8ff566c159be04d4863e46a41e6b1512
-SHA1: 6f0d6966314bcc89d7bd74fcad5406d1121608e9
-SHA256: 0cf3fcc29c25d62bb5fa463e630dadebc550b9dfa6ed66e14ec7858524578dba
-Section: Development
-Priority: optional
-Homepage: https://sileo-cydia.github.io/ms/description.html?id=cercube.lib
-Description: cercube YOUTUBE依赖文件
-Author: Majd Alfhaily
-Depiction: https://sileo-cydia.github.io/ms/description.html?id=cercube.lib
-Name: libCercube「依赖文件」
-Sileodepiction: https://sileo-cydia.github.io/ms/msxq/cercube.lib.json
 
 Package: me.nepeta.libnepeta
 Version: 0.1.0
