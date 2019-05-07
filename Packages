@@ -426,6 +426,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preference
 Dev: dustinhowett
 Name: PreferenceLoader
 
+Package: ru.rejail.utils
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 236
+Filename: ./debs/ru.rejail.utils_0.0.3_iphoneos-arm.deb
+Size: 21428
+MD5sum: 1f71dc8e38cc26d24e28c1be7f08709d
+SHA1: e1c0ec07cf6a604b6ef542a744de2e8157ca09c6
+SHA256: 7cf2077b92632c70d7e108ca1fbc9e3ccc24367f0a7133f3b76dbb796985dde4
+Section: System
+Homepage: http://rejail.ru/pack/utils
+Description: A collection of common functions for my tweaks. More documentation will be coming soon.
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: http://rejail.ru/depiction.php?file=utils
+Name: MDausch Utils
+Sileodepiction: http://rejail.ru/sileo/depiction.php?file=utils
+
 Package: uasharedtools
 Version: 2.2r-71
 Architecture: iphoneos-arm
