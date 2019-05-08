@@ -246,6 +246,25 @@ Tag: role::hacker
 Author: subdiox
 Name: sud0
 
+Package: jp.akusio.backgrounderaction11
+Version: 0.0.7
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 72
+Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
+Filename: ./debs/jp.akusio.backgrounderaction11_0.0.7_iphoneos-arm.deb
+Size: 9262
+MD5sum: c6d9b25e2d4b9e0dffaea68dd8381c7b
+SHA1: 8ee06d4cdaa7e4c77fb1c07ad43414a984eaf307
+SHA256: 82df2c58a64d84f54cce0f08d09999e12ec1506832b230668680ade6625b27ec
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/ms/description.html?id=backgrounderaction11
+Description: 目前在beta*中，将“切换背景模式”操作添加到activator。
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://sileo-cydia.github.io/ms/description.html?id=backgrounderaction11
+Name: Backgrounder Action「依赖文件」
+Sileodepiction: https://sileo-cydia.github.io/ms/msxq/backgrounderaction11.json
+
 Package: jp.ashikase.libpackageinfo
 Version: 1.1.0.1-1
 Architecture: iphoneos-arm
