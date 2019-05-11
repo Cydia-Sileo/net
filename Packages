@@ -366,6 +366,40 @@ Depiction: https://sileo-cydia.github.io/ms/description.html?id=limneosos
 Name: Limneosos
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/limneosos.json
 
+Package: me.alfhaily.adblockforyoutube
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.alfhaily.adblockforyoutube_1.0.7.deb
+Size: 46578
+MD5sum: 0da9477fed37688be32978aa98ef452c
+SHA1: 1b9ebdf775f71a57f13723963150c91a493886f6
+SHA256: 417a3bc157cdf4584c0f053583f1b11cb6380f8fccb8821303868ffe38d1236d
+Section: Tweaks
+Priority: optional
+Description: Block YouTube Ads and Video Ads
+Author: Majd Alfhaily
+Depiction: http://apt.alfhaily.me/depictions/AdBlockForYouTube
+Dev: freemanrepo
+Name: AdBlock for YouTube
+
+Package: me.alfhaily.cercube.lib
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.alfhaily.cercube.lib_1.1.1.deb
+Size: 6201490
+MD5sum: 44ea160a3c68d538a76823af6792b15d
+SHA1: 6b659a0dde26c47dae636d1e3caae665fde56939
+SHA256: f253cb56e4314646439b00a99b410b9626565a9078d15fb2cc9f175dabc430a1
+Section: Development
+Priority: optional
+Description: A library used by Cercube tweak
+Author: Majd Alfhaily
+Name: libCercube
+
 Package: me.nepeta.libcolorpicker
 Version: 1.6.2-3
 Architecture: iphoneos-arm
