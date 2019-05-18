@@ -443,6 +443,21 @@ Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
 Name: libnepeta
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
 
+Package: me.nepeta.libnepeta
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 208
+Filename: ./debs/me.nepeta.libnepeta_0.1.1_iphoneos-arm.deb
+Size: 15942
+MD5sum: 9c6b0244143ed613e6d4b2394b165545
+SHA1: 297f7b56a8ab255334e8d9cc5f82a20c711222de
+SHA256: 80e4c31f17da3748deb9c329ad41ea6eae6fdf609547125f9e729ffb16b113d2
+Section: Development
+Description: Nepeta's color utils
+Author: Nepeta
+Name: libnepeta
+
 Package: net.limneos.libbulletin
 Version: 0.1-147
 Architecture: iphoneos-arm
@@ -478,6 +493,24 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Dev: dustinhowett
 Name: PreferenceLoader
+
+Package: ru.rejail.libnepeta
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 208
+Filename: ./debs/ru.rejail.libnepeta_0.1.1_iphoneos-arm.deb
+Size: 26852
+MD5sum: 025a768fd307e2fe5a259d0da98e0b2d
+SHA1: 73b11eb76ae52529d2da39673d186e250b0ec3a1
+SHA256: ac97245bdc84652be98701adfcbd1125758c8bd0a44ba263cdaf58289cf0fa0d
+Section: System
+Homepage: http://rejail.ru/pack/libnepeta
+Description: Настройка цвета для твиков Nepeta
+Author: Nepeta
+Depiction: http://rejail.ru/depiction.php?file=libnepeta
+Name: libnepeta
+Sileodepiction: http://rejail.ru/sileo/depiction.php?file=libnepeta
 
 Package: ru.rejail.utils
 Version: 0.0.3
