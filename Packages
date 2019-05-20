@@ -307,6 +307,57 @@ Depiction: https://sileo-cydia.github.io/ms/description.html?id=backgrounderacti
 Name: Backgrounder Action「依赖文件」
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/backgrounderaction11.json
 
+Package: jp.akusio.backgrounderaction11
+Version: 0.0.7
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 72
+Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
+Filename: ./debs/jp.akusio.backgrounderaction11_0.0.7.deb
+Size: 10416
+MD5sum: 5a67ecdd2d7cda4101859a4c01079246
+SHA1: cea7eb76994723510b7ded6690f001450df96f00
+SHA256: f6403471ea2248ffc341dc9520ee1f9bf2925a4abd5d90aa398c4f1f508c181a
+Section: Tweaks
+Description: *Currnetly in Beta* Add "Toggle Background Mode" action to Activator.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
+Name: Backgrounder Action
+
+Package: jp.akusio.backgrounderaction12
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 276
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction12_0.1.0.deb
+Size: 21308
+MD5sum: 15173fd99097de7fbd73181cce6369ee
+SHA1: 1d619f4d3bf01e02a709bb53e9bde0b2de0c8788
+SHA256: 27b29176ad2aaf9cc46bc5c21ac2743da9042565ad620523a85570a34d397259
+Section: Tweaks
+Description: Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Name: BackgrounderAction for CCSupport
+
+Package: jp.akusio.debypass
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/jp.akusio.debypass_0.1.0.deb
+Size: 2710
+MD5sum: 6b00cf16e421b972db7a256ae3b838ab
+SHA1: 640e435f031f65f593f6d6d841a75b21ff22f1c5
+SHA256: 5062805e8e6e0a2c0b0c2aa226ad8054a0946fcfa1dc158f8729893df0cae83d
+Section: Tweaks
+Description: bypass jailbreak detection.
+Author: akusio
+Depiction: https://akusio.github.io/descriptions/debypass/index.html
+Name: De-Bypass
+
 Package: jp.ashikase.libpackageinfo
 Version: 1.1.0.1-1
 Architecture: iphoneos-arm
