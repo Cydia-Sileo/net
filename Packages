@@ -190,6 +190,22 @@ Tag: role::developer
 Author: LaughingQuoll
 Name: PrefixUI
 
+Package: com.midnightchips.ldRun
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: midnightchips
+Installed-Size: 132
+Filename: ./debs/com.midnightchips.ldrun_0.0.4_iphoneos-arm.deb
+Size: 3490
+MD5sum: 19a2fc4ff5f211f006c633c74941fd57
+SHA1: a103a8a055fa42458810fd3e4851960b0ff1b59e
+SHA256: 2fc1bcf5edf361abdb90dba515452556a0aa40dcb88e43ac0e4127d73e7192bc
+Section: System
+Description: A binary to run ldrestart as root.
+Tag: role::hacker
+Author: midnightchips
+Name: ldRun
+
 Package: com.opa334.ccsupport
 Version: 1.2-3
 Architecture: iphoneos-arm
