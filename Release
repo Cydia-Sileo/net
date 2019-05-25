@@ -1,0 +1,11 @@
+Origin: 1壹筒天下 🇨🇳
+Label: 1壹筒天下 🇨🇳「依赖源」
+Suite: stable
+Version: ©2019
+Codename: IOS
+Architectures: iphoneos-arm
+Components: main
+Description: 壹筒天下🇨🇳
+
+SHA256:
+ bf99c039b6ca72e257dd1fe9e5a7d91eb65a15d0d2dc698096a913ba3e583dbe 43043 Packages.bz2
