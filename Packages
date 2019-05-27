@@ -340,6 +340,23 @@ Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
 Name: Backgrounder Action
 
+Package: jp.akusio.backgrounderaction12
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 276
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/jp.akusio.backgrounderaction12_0.1.0_iphoneos-arm.deb
+Size: 17092
+MD5sum: 8abd14effb37e60e5b4f3d2e09bc3fbd
+SHA1: 7d5ac4e39443d88dbce7953d50c2efd35d01d499
+SHA256: e859aa43203ca72f420f84946e3c22c8708a7cd9312f19ac7da0da854b2e719c
+Section: Tweaks
+Description: Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Name: BackgrounderAction for CCSupport
+
 Package: jp.akusio.debypass
 Version: 0.1.0
 Architecture: iphoneos-arm
