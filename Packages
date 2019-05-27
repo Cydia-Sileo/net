@@ -18,6 +18,23 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: backgrounderaction12
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 276
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/backgrounderaction12_0.1.0_iphoneos-arm.deb
+Size: 17082
+MD5sum: 9a1c9400f5f201a081f1b37ef085b325
+SHA1: 32d2431a9ce0d264f50364d258b140bc7dd5efee
+SHA256: 606170ab1384c31a499adb52174ef79dada5d9ce0b73bf207f21067796928327
+Section: Tweaks
+Description: Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Name: BackgrounderAction for CCSupport
+
 Package: ch.mdaus.utils
 Version: 0.0.2
 Architecture: iphoneos-arm
