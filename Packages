@@ -473,6 +473,26 @@ Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
 Name: libcolorpicker Arm64e「A12」
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
 
+Package: libiarrays
+Version: 1.0.9-beta-11
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays
+Filename: ./debs/libiarrays1.0.9-beta-11.deb
+Size: 288400
+MD5sum: 063b67c57f164608e0cf2469623ac7e6
+SHA1: 28447df1ea24cfffff8f204df26e54dbcc94ae8b
+SHA256: dbc10355e2a357e9b6be85ed6fad8530b0190aa319d44390b7dfab784b8b5ded
+Section: Development
+Homepage: https://sileo-cydia.github.io/depiction/web/libiarrays.html
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Author: IArrays  <409774743@qq.com>
+Depiction: https://sileo-cydia.github.io/depiction/web/libiarrays.html
+Icon: https://sileo-cydia.github.io/assets/libiarrays/icon.png
+Moderndepiction: https://sileo-cydia.github.io/depiction/native/libiarrays.json
+Name: libarrays Cracked
+Sileodepiction: https://sileo-cydia.github.io/depiction/native/libiarrays.json
+
 Package: limneosos
 Version: 1.1.2
 Architecture: iphoneos-arm
