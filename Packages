@@ -35,6 +35,28 @@ Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
 Name: BackgrounderAction for CCSupport
 
+Package: cercube5pp
+Version: 1.0.0.2
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Installed-Size: 69
+Depends: mobilesubstrate, firmware (>= 10.0), me.alfhaily.cercube
+Conflicts: net.hollr2099.cercube4pp
+Filename: ./debs/cercube5pp1.0.0.2.deb
+Size: 4038
+MD5sum: 24f2fe28c7f2162e4dcab4ca9534c4ca
+SHA1: f3af948b14376ec9fb01ebffed6a30483214c291
+SHA256: e30a45010c0a42d80f5b77be04a64bbadb40e07a28c0b5a7b5da18975ee4ed8a
+Section: Tweaks
+Homepage: https://sileo-cydia.github.io/depiction/web/cercube5pp.html
+Description: 去掉 Cercube 5 for YouTube.广告
+Author: SarahH12099 <409774743@qq.com>
+Depiction: https://sileo-cydia.github.io/depiction/web/cercube5pp.html
+Icon: https://sileo-cydia.github.io/assets/cercube5pp/icon.png
+Moderndepiction: https://sileo-cydia.github.io/depiction/native/cercube5pp.json
+Name: Cercube 5 for YouTube++
+Sileodepiction: https://sileo-cydia.github.io/depiction/native/cercube5pp.json
+
 Package: ch.mdaus.utils
 Version: 0.0.2
 Architecture: iphoneos-arm
