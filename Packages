@@ -40,13 +40,13 @@ Version: 1.0.0.2
 Architecture: iphoneos-arm
 Maintainer: 他是个疯子 <409774743@qq.com>
 Installed-Size: 69
-Depends: mobilesubstrate, firmware (>= 10.0), me.alfhaily.cercube
+Depends: mobilesubstrate, firmware (>= 10.0), cercube | me.alfhaily.cercube
 Conflicts: net.hollr2099.cercube4pp
 Filename: ./debs/cercube5pp1.0.0.2.deb
-Size: 4038
-MD5sum: 24f2fe28c7f2162e4dcab4ca9534c4ca
-SHA1: f3af948b14376ec9fb01ebffed6a30483214c291
-SHA256: e30a45010c0a42d80f5b77be04a64bbadb40e07a28c0b5a7b5da18975ee4ed8a
+Size: 4048
+MD5sum: 04a5231671ac74be9590e063e87f2cfd
+SHA1: 242be48f2d618128ac89b42dfea671f514480e1a
+SHA256: f1106ba912609b02ec9f04d6f239a9b0ff53d3fc630773483a2c932c35984e9a
 Section: Tweaks
 Homepage: https://sileo-cydia.github.io/depiction/web/cercube5pp.html
 Description: 去掉 Cercube 5 for YouTube.广告
