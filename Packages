@@ -136,6 +136,26 @@ Dev: creaturecoding
 Name: libCSPreferences
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.1.8
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 4584
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/com.creaturecoding.libcspreferences_1.1.8_iphoneos-arm.deb
+Size: 617784
+MD5sum: a116bd96924e9edc501803a4eb370cdb
+SHA1: f3546fa1aed6cf0142f3da9e5e2b02180cc544d7
+SHA256: 35652c8f9a89accb88cc8e618bf10a4d61f7ce714af447534bc39d7419357370
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -342,6 +362,21 @@ Description: sudo command, electra jailbreak supported
 Tag: role::hacker
 Author: subdiox
 Name: sud0
+
+Package: com.synnyg.backupaz3pojie
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子
+Depends: backupaz3
+Filename: ./debs/com.synnyg.backupaz3pojie_1.5_iphoneos-arm.deb
+Size: 630
+MD5sum: cede124bbe560fde37b850e11b032e81
+SHA1: c4b2fecf721120a10c4d5cc37c022c450b85adae
+SHA256: 523cdc07cf133f6cda1990dd9d5a469c03ac70ddf3403296100c211322948cc0
+Section: 其他
+Description: backupaz3破解补丁
+Author: 他是个疯子
+Name: BackupAZ 3 「破解补丁」
 
 Package: jp.akusio.backgrounderaction11
 Version: 0.0.7
