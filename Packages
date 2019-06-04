@@ -176,6 +176,26 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 Name: libCSPreferences
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 4652
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/com.creaturecoding.libcspreferences_1.2.0_iphoneos-arm.deb
+Size: 629010
+MD5sum: 6c7dacefe5e329ede71dd5e3c4984641
+SHA1: f66d400bc754cca0b18d77a8ab52d7ac12f356bc
+SHA256: 55215ca33d96ea69c58b7b4234a08c4eab26ff1a8fb2994f0bd491c6bd8de3c3
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.3
 Architecture: iphoneos-arm
