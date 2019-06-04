@@ -1,19 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>authentication_banner</key>
-	<dict>
-		<key>button</key>
-		<string>登录</string>
-		<key>message</key>
-		<string>欢迎使用壹筒天下111</string>
-	</dict>
-	<key>description</key>
-	<string>欢迎使用壹筒天下222</string>
-	<key>icon</key>
-	<string>https://sileo-cydia.github.io/api/sileo/CydiaIcon.png</string>
-	<key>name</key>
-	<string>壹筒天下333</string>
-</dict>
-</plist>
+                
+{
+    "name":"Ant蚂蚁源中文网",
+    "icon":"https://apt.cydia.love/CydiaIcon.png",
+    "description":"欢迎使用Ant蚂蚁源中文网会员系统",
+    "authentication_banner":{
+        "message":"欢迎使用Ant蚂蚁源中文网会员系统",
+        "button":"登录"
+    }
+}
+
+         
+
