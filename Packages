@@ -305,25 +305,6 @@ Tag: role::hacker
 Author: midnightchips
 Name: ldRun
 
-Package: com.muris.lendmyphone2
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Geometric Software
-Installed-Size: 7580
-Depends: mobilesubstrate, com.muris.libgraphite (>= 2.2), firmware (>= 12.0), preferenceloader
-Filename: ./debs/com.muris.lendmyphone2_1.1_iphoneos-arm.deb
-Size: 7256644
-MD5sum: 3e4e4e1027db9bf2f7376903a32aa10b
-SHA1: b1347d198f961f3b1eab4477c440943ed757d886
-SHA256: a7b9b2e85983161781fefa55bece0604ce6ad050579fddf80cb7876872a57cb5
-Section: Tweaks
-Description: A true guest mode for iOS
-Tag: cydia::commercial
-Author: Geometric Software
-Depiction: https://store.geometricsoftware.se/packages/com.muris.lendmyphone2
-Icon: file:///Library/PreferenceBundles/LendMyPhone.bundle/store.png
-Name: LendMyPhone 2
-
 Package: com.muris.libgraphite
 Version: 2.2.2
 Architecture: iphoneos-arm
