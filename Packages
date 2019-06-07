@@ -73,26 +73,6 @@ Tag: role::developer
 Author: Maxwell Dausch <max.dausch@gmail.com>
 Name: MDausch Utils
 
-Package: cn.yttxcs.com.synnyg.backupaz3pojie
-Version: 1.5
-Architecture: iphoneos-arm
-Maintainer: 他是个疯子 <409774743@qq.com>
-Depends: cn.yttxcs.backupaz3
-Filename: ./debs/com.synnyg.backupaz3pojie_1.5.deb
-Size: 746
-MD5sum: e93775bd0bdd90522fab857895cd0533
-SHA1: fca6417adfaeea301444d7ab3da208ed68795bd9
-SHA256: 0637317d045efa1b88dce98af500a68ebe4aaf3363691f140dc800f14bf0d430
-Section: 其他
-Homepage: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
-Description: backupaz3破解补丁
-Author: 他是个疯子 <409774743@qq.com>
-Depiction: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
-Icon: https://yttxcs.cn/assets/com.synnyg.backupaz3pojie/icon.png
-Moderndepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
-Name: BackupAZ 3 「破解补丁」
-Sileodepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
-
 Package: com.chpwn.iconsupport
 Version: 1.11.1
 Architecture: iphoneos-arm
@@ -422,6 +402,26 @@ Description: sudo command, electra jailbreak supported
 Tag: role::hacker
 Author: subdiox
 Name: sud0
+
+Package: com.synnyg.backupaz3pojie
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Depends: cn.yttxcs.backupaz3
+Filename: ./debs/com.synnyg.backupaz3pojie_1.5.deb
+Size: 746
+MD5sum: 96aa02fa2f590ad6e8589134fb3791ed
+SHA1: 2a51e86ebca29c12e5818946744fbbf492d359af
+SHA256: e2b42886af42684892511d1e3ee5999afd682ad21479703ca4ca626f134715ad
+Section: 其他
+Homepage: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
+Description: backupaz3破解补丁
+Author: 他是个疯子 <409774743@qq.com>
+Depiction: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
+Icon: https://yttxcs.cn/assets/com.synnyg.backupaz3pojie/icon.png
+Moderndepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
+Name: BackupAZ 3 「破解补丁」
+Sileodepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
 
 Package: jp.akusio.backgrounderaction11
 Version: 0.0.7
