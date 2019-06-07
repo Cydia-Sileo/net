@@ -324,6 +324,25 @@ Depiction: https://store.geometricsoftware.se/packages/com.muris.lendmyphone2
 Icon: file:///Library/PreferenceBundles/LendMyPhone.bundle/store.png
 Name: LendMyPhone 2
 
+Package: com.muris.libgraphite
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 1304
+Depends: firmware(>=10.0)
+Breaks: com.muris.amour(<=1.0), com.muris.intelligentpass(<=1.0.7), com.muris.lendmyphone(<=1.0.5), com.muris.bellevolume(<=1.1.1), com.muris.modernalerts(<=1.2), com.muris.extendedglyph(<=1.1)
+Filename: ./debs/com.muris.libgraphite_2.2.2_iphoneos-arm.deb
+Size: 346698
+MD5sum: f47ffb13b8a433ec54bd1989cbd2e0f9
+SHA1: 2b5d320583eb4ce154bcb52f23ecc827781b4c28
+SHA256: 0040114c077d9e43ecf693fe492c00242beb8878abceffe298035db9d53cc904
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/com.muris.libgraphite
+Name: libgraphite
+
 Package: com.opa334.ccsupport
 Version: 1.2-3
 Architecture: iphoneos-arm
