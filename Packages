@@ -73,6 +73,26 @@ Tag: role::developer
 Author: Maxwell Dausch <max.dausch@gmail.com>
 Name: MDausch Utils
 
+Package: cn.yttxcs.com.synnyg.backupaz3pojie
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Depends: cn.yttxcs.backupaz3
+Filename: ./debs/com.synnyg.backupaz3pojie_1.5.deb
+Size: 746
+MD5sum: e93775bd0bdd90522fab857895cd0533
+SHA1: fca6417adfaeea301444d7ab3da208ed68795bd9
+SHA256: 0637317d045efa1b88dce98af500a68ebe4aaf3363691f140dc800f14bf0d430
+Section: 其他
+Homepage: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
+Description: backupaz3破解补丁
+Author: 他是个疯子 <409774743@qq.com>
+Depiction: https://yttxcs.cn/depiction/html/com.synnyg.backupaz3pojie.html
+Icon: https://yttxcs.cn/assets/com.synnyg.backupaz3pojie/icon.png
+Moderndepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
+Name: BackupAZ 3 「破解补丁」
+Sileodepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
+
 Package: com.chpwn.iconsupport
 Version: 1.11.1
 Architecture: iphoneos-arm
@@ -402,21 +422,6 @@ Description: sudo command, electra jailbreak supported
 Tag: role::hacker
 Author: subdiox
 Name: sud0
-
-Package: com.synnyg.backupaz3pojie
-Version: 1.5
-Architecture: iphoneos-arm
-Maintainer: 他是个疯子
-Depends: backupaz3
-Filename: ./debs/com.synnyg.backupaz3pojie_1.5_iphoneos-arm.deb
-Size: 630
-MD5sum: cede124bbe560fde37b850e11b032e81
-SHA1: c4b2fecf721120a10c4d5cc37c022c450b85adae
-SHA256: 523cdc07cf133f6cda1990dd9d5a469c03ac70ddf3403296100c211322948cc0
-Section: 其他
-Description: backupaz3破解补丁
-Author: 他是个疯子
-Name: BackupAZ 3 「破解补丁」
 
 Package: jp.akusio.backgrounderaction11
 Version: 0.0.7
