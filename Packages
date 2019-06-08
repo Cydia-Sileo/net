@@ -442,6 +442,48 @@ Moderndepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.jso
 Name: BackupAZ 3 「破解补丁」
 Sileodepiction: https://yttxcs.cn/depiction/sileo/com.synnyg.backupaz3pojie.json
 
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-76
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: com.unlimapps.uasharedtools.nostash | com.unlimapps.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-76_iphoneos-arm.deb
+Size: 672
+MD5sum: e9634f66f0978dd63a2ccb8c725bb05b
+SHA1: 45b37869121612430d73720feb48b4ad30435597
+SHA256: cbf1b44dca0743d3c33903ca68b4ec26c56adfb8c207b6375be63fda29857bef
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-76
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/com.unlimapps.uasharedtools.nostash_2.2r-76_iphoneos-arm.deb
+Size: 23624784
+MD5sum: 4220a2be422555a937ae039848b787da
+SHA1: 5e492b7c004b7ad6787979f302da768daba47fc2
+SHA256: ff946f1234667cff05e34e26cfc2fa64bc1a1aff4221a2b17a476c0ca3eb83cb
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools (iOS 11)
+
 Package: jp.akusio.backgrounderaction11
 Version: 0.0.7
 Architecture: iphoneos-arm
