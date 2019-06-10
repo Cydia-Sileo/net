@@ -324,6 +324,26 @@ Author: Geometric Software
 Depiction: https://store.geometricsoftware.se/packages/com.muris.libgraphite
 Name: libgraphite
 
+Package: com.muris.libgraphite
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 1304
+Depends: firmware(>=10.0)
+Breaks: com.muris.amour(<=1.0), com.muris.intelligentpass(<=1.0.7), com.muris.lendmyphone(<=1.0.5), com.muris.bellevolume(<=1.1.1), com.muris.modernalerts(<=1.2), com.muris.extendedglyph(<=1.1)
+Filename: ./debs/com.muris.libgraphite_2.2.3_iphoneos-arm.deb
+Size: 346706
+MD5sum: 285565335f4c1c21405e87539a77baaa
+SHA1: fa8819e11bc5733d33c4816f26f89f8ac116a551
+SHA256: d2a1286c5c40954dff4d66c9fb084acd6b01ce30df4fda822cf26f1421405c34
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/com.muris.libgraphite
+Name: libgraphite
+Sileodepiction: https://store.geometricsoftware.se/packages/com.muris.libgraphite
+
 Package: com.opa334.ccsupport
 Version: 1.2-3
 Architecture: iphoneos-arm
