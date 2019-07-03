@@ -1,8 +1,8 @@
-Origin: A壹筒天下(yttxcs.cn) 
-Label: 1壹筒天下(yttxcs.cn)「依赖源」
+Origin: 1 壹筒天下🇨🇳(yttxcs.cn) 「依赖源」
+Label: A 壹筒天下🇨🇳(yttxcs.cn)「依赖源」
 Suite: stable
-Version: ©2019
-Codename: 他是个疯子
-Architecture: iphoneos-arm　
+Version: 1.2
+Codename: cn.yttxcs
+Architectures: iphoneos-arm
 Components: main
-Description: 壹筒天下 Tweaks
+Description: 详细,安全的中文源
