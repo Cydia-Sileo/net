@@ -289,6 +289,23 @@ Tag: role::developer
 Author: LaughingQuoll
 Name: PrefixUI
 
+Package: com.laughingquoll.prefixui
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 252
+Depends: me.nepeta.libcolorpicker
+Filename: ./debs/com.laughingquoll.prefixui_1.2.2_iphoneos-arm.deb
+Size: 34040
+MD5sum: 36a4d6dfd10f2650109af73a42f8b8dd
+SHA1: 1f76a192c5dc4191446b75648eac4272d98e8189
+SHA256: ffcad70f1d267260198d13a3375a4e2d9bca32749aaaf8dd658bf1d52d89accb
+Section: System
+Description: An awesome framework of some sort!!
+Tag: role::developer
+Author: LaughingQuoll
+Name: PrefixUI
+
 Package: com.midnightchips.ldRun
 Version: 0.0.4
 Architecture: iphoneos-arm
