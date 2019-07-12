@@ -841,6 +841,30 @@ Description: Simple library that displays bulletins
 Author: Elias Limneos
 Name: libbulletin
 
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.3-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 557
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Replaces: me.nepeta.libcolorpicker
+Provides: me.nepeta.libcolorpicker
+Filename: ./debs/libcolorpicker_1.6.3-1.deb
+Size: 113364
+MD5sum: 34ca753de2d29fbab5ecbf1f5c5fa531
+SHA1: fc6759f92340ae6eb084dc6ba095e6c44d4da186
+SHA256: 8d8256f5a9acd7b47221497c13b3dadf8f8d34caba796c6ed28db6e3ef6d4f8b
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Description: color picker library for developers
+Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, cydia::obsolete
+Author: PixelFire <pixelfiredev@helpful.io>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Dev: pixelfiredev
+Name: libcolorpicker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: preferenceloader
 Version: 2.2.4~beta1
 Architecture: iphoneos-arm
