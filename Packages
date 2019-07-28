@@ -521,6 +521,26 @@ Dev: i4iphones
 Name: uasharedtools
 
 Package: com.unlimapps.uasharedtools
+Version: 2.2r-77
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: com.unlimapps.uasharedtools.nostash | com.unlimapps.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-77_iphoneos-arm.deb
+Size: 670
+MD5sum: 780554aa35b045c7c2aa88a66e8cc775
+SHA1: 311a44edecfca4787208a054d6b6f2f201305801
+SHA256: 1585036c4edffc124429d50235d86a38fdc63364170416f45372e00b6ca2eac0
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+
+Package: com.unlimapps.uasharedtools
 Version: 2.2r-86
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -575,6 +595,28 @@ Size: 22719728
 MD5sum: df594598db518303a4e3cd5c5f6db64c
 SHA1: a3e662e307e61dfed70a1d621d97a3a2533f0cc8
 SHA256: 4069a42f86ea1a8a10190e1b7a7242cd866d3df2dbb26e6dff78027f473f62e4
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools (iOS 11)
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-87
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/com.unlimapps.uasharedtools.nostash_2.2r-87_iphoneos-arm.deb
+Size: 22719486
+MD5sum: 01bba87353970a61bf9f1f83a3a3dda3
+SHA1: a0b4ec66051de01b8521eefcc5490ad438a6602e
+SHA256: 59872a0445846c5fa757a1e11c5066ba76af7484d1316ee16e2cdc5cb1234936
 Section: Development
 Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
 Description: shared tools for unlimapps tweaks
