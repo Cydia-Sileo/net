@@ -560,6 +560,26 @@ Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
 Dev: i4iphones
 Name: uasharedtools
 
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-87
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: com.unlimapps.uasharedtools.nostash | com.unlimapps.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-87_iphoneos-arm.deb
+Size: 670
+MD5sum: a23dbce0499eba0724f8148b6c3e88cf
+SHA1: 45ea70595738970f9a8e3dee8306d12c0f3e1280
+SHA256: e75b61bf410a3cbb314bf2b442b62b4a6d1a8bbbd706089f5c185dda08acb2d2
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+
 Package: com.unlimapps.uasharedtools.nostash
 Version: 2.2r-76
 Architecture: iphoneos-arm
