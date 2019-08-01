@@ -73,6 +73,29 @@ Tag: role::developer
 Author: Maxwell Dausch <max.dausch@gmail.com>
 Name: MDausch Utils
 
+Package: cokepokes.jp.ashikase.libcrashreport
+Version: 1.1.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>= 3.0)
+Depends: cokepokes.jp.ashikase.libsymbolicate (>= 1.9.0), cokepokes.jp.ashikase.libpackageinfo
+Conflicts: jp.ashikase.libcrashreport
+Filename: ./debs/cokepokes.jp.ashikase.libcrashreport_1.1.0-2_iphoneos-arm.deb
+Size: 50916
+MD5sum: 315e6c43822c96d2264af02cc06652bd
+SHA1: 71a59d90828518ec2eee5a902f1c9b4e69006f0d
+SHA256: aeab02392d70e7b57dbcd962455367c65fab6404fc80c2a4c6dcf5a03e973f76
+Section: Development
+Homepage: http://github.com/ashikase/libcrashreport
+Description: Library to parse and symbolicate crash reports.
+    This library is based upon CrashReporter by kennytm.
+Tag: role::developer
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcrashreportData
+Dev: ashikase
+Name: libcrashreport (cokepokes)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: cokepokes.jp.ashikase.libpackageinfo
 Version: 1.1.0.1-3
 Architecture: iphoneos-arm
@@ -92,6 +115,28 @@ Author: Lance Fetters (ashikase) <support@ashikase.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
 Dev: ashikase
 Name: libpackageinfo (cokepokes)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cokepokes.jp.ashikase.libsymbolicate
+Version: 1.9.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>=4.0)
+Conflicts: jp.ashikase.libsymbolicate
+Filename: ./debs/cokepokes.jp.ashikase.libsymbolicate_1.9.0-2_iphoneos-arm.deb
+Size: 45996
+MD5sum: 7f3ef6587700b9635be99b3a23b4c91a
+SHA1: ec4d3693fb44093e4a77acfd638de4bb61cfdff1
+SHA256: 4a59217581cba846631b02bc08c800e29b4e07dbda0151a0afc715caa6a7a310
+Section: Development
+Homepage: http://github.com/ashikase/libsymbolicate
+Description: Library to symbolicate memory addresses.
+    This library is based upon CrashReporter by kennytm.
+Tag: role::developer
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsymbolicateData
+Dev: ashikase
+Name: libsymbolicate (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.a3tweaks.flipswitch
