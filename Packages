@@ -73,6 +73,27 @@ Tag: role::developer
 Author: Maxwell Dausch <max.dausch@gmail.com>
 Name: MDausch Utils
 
+Package: cn.yttxcs.libiarrays
+Version: 1.0.9-beta-11
+Architecture: iphoneos-arm
+Maintainer: IArrays  <409774743@qq.com>
+Depends: firmware (>=11.0)
+Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays
+Filename: ./debs/libiarrays_1.0.9-beta-11.deb
+Size: 287748
+MD5sum: 64f855090a85e6a7c790814366bc3ce5
+SHA1: 891084a5b9a8ba76f692d8e2ea4202bf0fcdffad
+SHA256: 35d89aee75a25e95b992263a4dab0befccc2b6519a9c1971a3b4627090b2220e
+Section: 依赖
+Homepage: https://sileo-cydia.github.io
+Description: 只有Iarrays产品才应使用。这是关闭的图书馆，没有支持这一包装。
+Author: IArrays  <409774743@qq.com>
+Depiction: https://yttxcs.cn/depiction/html/libiarrays.html
+Icon: https://yttxcs.cn/assets/libiarrays/icon.png
+Moderndepiction: https://yttxcs.cn/depiction/sileo/libiarrays.json
+Name: libarrays Cracked
+Sileodepiction: https://yttxcs.cn/depiction/sileo/libiarrays.json
+
 Package: cokepokes.jp.ashikase.libcrashreport
 Version: 1.1.0-2
 Architecture: iphoneos-arm
