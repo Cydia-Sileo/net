@@ -517,6 +517,23 @@ Dev: opa334
 Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.pulandres.adblockplus
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 264
+Filename: ./debs/com.pulandres.adblockplus_1.1_iphoneos-arm.deb
+Size: 12672
+MD5sum: ecc822f85eb55946e494c9f9427f8ebd
+SHA1: d37dcf33182d73039d2b9cc9ed3fe220d8f6977d
+SHA256: b2c00261cf2693f53d88833c7014f6e9300fa6d0f1eea1343339199b12932fb2
+Section: Tweaks
+Description: Adblock for ++ Tweaks
+Author: ReJail
+Depiction: https://repo.pulandres.me/index.php?pid=377
+Name: AdBlock ++
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=377
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.7~beta3
 Architecture: iphoneos-arm
