@@ -534,6 +534,24 @@ Depiction: https://repo.pulandres.me/index.php?pid=377
 Name: AdBlock ++
 Sileodepiction: https://repo.pulandres.me/sileo.php?pid=377
 
+Package: com.pulandres.libiarrays
+Version: 1.0.11-beta-6
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Pre-Depends: firmware (>=7.0)
+Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays
+Filename: ./debs/com.pulandres.libiarrays_1.0.11-beta-6_iphoneos-arm.deb
+Size: 288814
+MD5sum: 91d0e2ee603abbf6bf4056f1a9546990
+SHA1: 34bd847b9a98804a3ae85838136db24548165fd9
+SHA256: 77246883bdab60006e69895a07bec892def0f2c26c59c185cc42fab5579593e7
+Section: Development
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Author: IArrays <support@iarrays.com>
+Depiction: https://repo.pulandres.me/index.php?pid=413
+Name: libiarrays Cracked
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=413
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.7~beta3
 Architecture: iphoneos-arm
