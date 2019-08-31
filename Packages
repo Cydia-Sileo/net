@@ -327,6 +327,41 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 Name: libCSColorPicker
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
+Package: com.foxfort.foxforttools
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 640
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack
+Filename: ./debs/com.foxfort.foxforttools_1.0.7_iphoneos-arm.deb
+Size: 141762
+MD5sum: 8afe82d8b9f37cf246fd3568a2b495de
+SHA1: eb9611f1d6e748a4ed5efc278330fd0fd756e7b3
+SHA256: c1f1daa1011f02b7625e402a2a5da8b973a47432ae5bcaf5049e96081369589d
+Section: System
+Description: Helper tools for Foxfort tweaks
+Tag: role::developer
+Author: FoxfortMobile
+Name: FoxFort Tools
+
+Package: com.foxfort.libfoxfortutils
+Version: 1.0.9
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 840
+Depends: firmware (>= 7.0)
+Filename: ./debs/com.foxfort.libfoxfortutils_1.0.9_iphoneos-arm.deb
+Size: 148738
+MD5sum: 98158ee5d1584a8decadab437dedd0b9
+SHA1: fd541aa9deec8d577f33263b0b357f61968086c2
+SHA256: 889bf75d2a642ddc3a80da66f1f3934d251b0c5d212e9034a2d0b2bc168ac8cd
+Section: System
+Description: Basic utilities for Foxfort tweaks
+Tag: role::developer
+Author: FoxfortMobile
+Name: libfoxfortutils
+
 Package: com.hackyouriphone.libcolorpickerarm64
 Version: 1.6.2-1
 Architecture: iphoneos-arm
@@ -1157,6 +1192,27 @@ Section: Tweaks
 Description: Simple library that displays bulletins
 Author: Elias Limneos
 Name: libbulletin
+
+Package: org.swift.libswift
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 183124
+Depends: firmware (>= 7.0)
+Filename: ./debs/org.swift.libswift_5.0_iphoneos-arm.deb
+Size: 34559404
+MD5sum: 7a5f1ce4acf4277fd5e23217d53d9c4f
+SHA1: 7b49c7cceb60d95f9aeb121b2695a38a6c7bea2a
+SHA256: d78153853892d427f7bb55281dbee97f42835c654389d27834682aceb37af88a
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Dev: kabiroberai
+Name: libswift (stable)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.thebigboss.libcolorpicker
 Version: 1.6.3-1
