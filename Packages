@@ -38,7 +38,7 @@ Name: BackgrounderAction for CCSupport
 Package: cercube5pp
 Version: 1.0.0.2
 Architecture: iphoneos-arm
-Maintainer: 他是个疯子 <409774743@qq.com>
+Maintainer: Harbor源 <app.gang@icloud.com>
 Installed-Size: 69
 Depends: mobilesubstrate, firmware (>= 10.0), cercube | me.alfhaily.cercube
 Conflicts: net.hollr2099.cercube4pp
@@ -1348,7 +1348,7 @@ Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://sileo-cydia.github.io/ms/description.html?id=ylwj
 Name: Cephei
 Sileodepiction: https://sileo-cydia.github.io/ms/msxq/ylwj.json
-Sponsor: 他是个疯子
+Sponsor: Harbor
 
 Package: ws.hbang.common
 Version: 1.13.1-2
