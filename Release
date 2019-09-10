@@ -1,7 +1,7 @@
-Origin: 壹筒天下「依赖源」 🇨🇳
-Label: 壹筒天下「依赖源」 🇨🇳
+﻿Origin: Harbor源
+Label: Harbor源
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: 壹筒天下🇨🇳
+Description: Harbor源
