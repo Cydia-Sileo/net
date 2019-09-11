@@ -1,7 +1,7 @@
-﻿Origin: Harbor源
-Label: Harbor源
+Origin: Harbor
+Label: Harbor
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
 Components: main
-Description: Harbor源
+Description: Harbor
